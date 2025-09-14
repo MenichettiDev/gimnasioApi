@@ -1,0 +1,37 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\menic\\OneDrive\\Documentos\\GitHub\\gimnasioApi\\wwwroot\\avatars\\no_avatar.jpg",
+      "PackagePath": "staticwebassets\\avatars\\no_avatar.jpg"
+    },
+    {
+      "Id": "C:\\Users\\menic\\OneDrive\\Documentos\\GitHub\\gimnasioApi\\wwwroot\\avatars\\test.jpg",
+      "PackagePath": "staticwebassets\\avatars\\test.jpg"
+    },
+    {
+      "Id": "C:\\Users\\menic\\OneDrive\\Documentos\\GitHub\\gimnasioApi\\wwwroot\\images\\productos\\.gitkeep",
+      "PackagePath": "staticwebassets\\images\\productos\\.gitkeep"
+    },
+    {
+      "Id": "C:\\Users\\menic\\OneDrive\\Documentos\\GitHub\\gimnasioApi\\wwwroot\\images\\servicios\\.gitkeep",
+      "PackagePath": "staticwebassets\\images\\servicios\\.gitkeep"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.gimnasioApi.props",
+      "PackagePath": "build\\gimnasioApi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.gimnasioApi.props",
+      "PackagePath": "buildMultiTargeting\\gimnasioApi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.gimnasioApi.props",
+      "PackagePath": "buildTransitive\\gimnasioApi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.gimnasioApi.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

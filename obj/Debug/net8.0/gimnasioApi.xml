@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>gimnasioApi</name>
+    </assembly>
+    <members>
+        <member name="M:gimnasioApi.Services.Interfaces.IStockService.SendLowStockSummaryEmailAsync">
+            <summary>
+            Envía un solo mail con la lista de productos almacenables con bajo stock (solo si hay alguno).
+            </summary>
+        </member>
+        <member name="M:gimnasioApi.Services.StockService.SendLowStockSummaryEmailAsync">
+            <summary>
+            Envía un solo mail con la lista de productos almacenables con bajo stock (solo si hay alguno).
+            </summary>
+        </member>
+        <member name="M:gimnasioApi.Services.StockService.UpdateStockAsync(System.Int32,System.Int32)">
+            <summary>
+            Descuenta stock de un producto. Lanza excepción si no hay suficiente stock.
+            </summary>
+        </member>
+        <member name="M:gimnasioApi.Services.StockService.DevolverStockAsync(System.Int32,System.Int32)">
+            <summary>
+            Devuelve stock a un producto (por ejemplo, al eliminar o reducir una venta).
+            </summary>
+        </member>
+    </members>
+</doc>
