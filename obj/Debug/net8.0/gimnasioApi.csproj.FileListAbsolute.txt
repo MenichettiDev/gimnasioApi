@@ -131,3 +131,4 @@ C:\Users\menic\OneDrive\Documentos\GitHub\gimnasioApi\obj\Debug\net8.0\gimnasioA
 C:\Users\menic\OneDrive\Documentos\GitHub\gimnasioApi\obj\Debug\net8.0\gimnasioApi.pdb
 C:\Users\menic\OneDrive\Documentos\GitHub\gimnasioApi\obj\Debug\net8.0\gimnasioApi.genruntimeconfig.cache
 C:\Users\menic\OneDrive\Documentos\GitHub\gimnasioApi\obj\Debug\net8.0\ref\gimnasioApi.dll
+C:\Users\menic\OneDrive\Documentos\GitHub\gimnasioApi\obj\Debug\net8.0\gimnasioApi.sourcelink.json

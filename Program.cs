@@ -4,8 +4,6 @@ using System.Security.Claims;
 using System.Text;
 using System.Text.Json.Serialization;
 using gimnasioApi.Data;
-using gimnasioApi.Services;
-using gimnasioApi.Services.Interfaces;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Builder;
@@ -156,16 +154,7 @@ builder
 builder.Services.AddAuthorization(); // esto lo q hace es configurar autorización
 
 // Registrar servicios de negocio
-builder.Services.AddScoped<IVentaService, VentaService>();
-builder.Services.AddScoped<ICierreDiarioService, CierreDiarioService>();
-builder.Services.AddScoped<IStockService, StockService>();
-builder.Services.AddScoped<IAtencionService>(provider =>
-{
-    var context = provider.GetRequiredService<ApplicationDbContext>();
-    var logger = provider.GetRequiredService<ILogger<AtencionService>>();
-    var stockService = provider.GetRequiredService<IStockService>();
-    return new AtencionService(context, logger, stockService);
-});
+
 builder.Services.AddSingleton(builder.Configuration);
 
 // Registrar servicios de acceso a datos
